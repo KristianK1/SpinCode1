@@ -1,0 +1,1 @@
+https://jupitermobiletest.jupiter-software.com:30081/jupitermobilex/gen/api/food
