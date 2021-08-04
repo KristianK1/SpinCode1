@@ -1,7 +1,54 @@
 
-        .naslov {
-            color: red;
-          /* background-color: linen;
-          border: 1px solid red; */
-        }
-        
+.naslov {
+    color: red;
+  /* background-color: linen;
+  border: 1px solid red; */
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  text-align: justify;
+}
+tr { 
+  border-top: solid;
+  border-width: 1px 1;
+  width: 33%;
+}
+
+.long-new-ogranici-sirinu{
+  width:40%;
+  margin: 0% 30%;
+  /*display:flex;
+  flex-flow:row wrap;*/
+}
+
+h1{
+  text-align: center;
+}
+
+.inputstuff{
+  width: 100%;
+  display: grid;
+	grid-template-columns: 5fr 5fr 1fr;
+	grid-template-rows: auto;/*repeat*/
+	grid-gap: 5px;
+}
+
+.inputstuff span :nth-child(1){
+  width: 100%;
+}
+.inputstuff span :nth-child(2){
+  width: 40%;
+}
+.inputstuff button{
+  width: 20%;
+} 
+button{
+  width: 100%;
+}
+
+input{
+  width: 100%;
+}
